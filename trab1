@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("entre com o primeiro numero: ");
+    float numeroA = scanner.nextFloat();
+    System.out.println("entre com o segundo numero: ");
+    float numeroB = scanner.nextFloat();
+    float soma = numeroA + numeroB;
+    float sub = numeroB - numeroA;
+    float mult = numeroA * numeroB;
+    float div = numeroA / numeroB;
+    System.out.println("a soma dos numeros é: " + soma);
+    System.out.println("a subtração dos numeros é: " + sub);
+    System.out.println("a multiplicação dos numeros é: " + mult);
+    System.out.println("a divisão dos numeros é: " + div);
+    scanner.close();
+  }
+}
